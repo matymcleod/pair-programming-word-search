@@ -1,3 +1,5 @@
+// Pair programming with Shaun Purslow. We contributed equally.
+
 const wordSearch = (letters, word) => {
     const horizontalJoin = letters.map(ls => ls.join(''));
     for (let l of horizontalJoin) {
